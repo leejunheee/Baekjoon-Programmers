@@ -21,6 +21,7 @@ public class Test5 {
 		}
 		else {
 			System.out.println(H + " " + (M - 45));
+			System.out.println();
 		}
 	}
 }
