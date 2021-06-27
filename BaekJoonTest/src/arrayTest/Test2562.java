@@ -2,7 +2,7 @@ package arrayTest;
 
 import java.util.*; 
 
-public class Test3562 { 
+public class Test2562 { 
     public static void main(String[] args) { 
         Scanner sc =new Scanner(System.in); 
         int [] input =new int[9]; 
