@@ -7,7 +7,7 @@ public class Test10951 {
 Scanner sc = new Scanner(System.in);
 		
 		
-		while(true ) {
+		while(sc.hasNext() ) {
 			
 			int a = sc.nextInt();
 			int b = sc.nextInt();

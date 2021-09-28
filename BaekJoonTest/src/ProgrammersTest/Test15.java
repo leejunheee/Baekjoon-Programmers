@@ -1,30 +1,50 @@
 package ProgrammersTest;
-//부족한 금액 계산하기
+
+import java.util.*;
+//제일 작은수 제거 
 public class Test15 {
 	public static void main(String[] args) {
 		
+		
+		int[] a = {4,3,2,1};
+		
+		
 		Solution16 s = new Solution16();
-		System.out.println(s.solution(3, 20, 4));
+		System.out.println(s.solution(a));
 		
 	}
-}
 
+}
 
 class Solution16 {
-    public long solution(int price, int money, int count) {
-        long answer = -1;
-
+    public int[] solution(int[] arr) {
+        int[] answer = null;
         
-        long totalcount = (count * (1 + count))/2;
+        List<Integer> list = new ArrayList<Integer>();
         
-        long totalmoney = price * totalcount;
-        
-        if(money >= totalmoney) {
-        	return 0;
-        } else {
-        	return totalmoney - money;
+        for(int i = 0; i < arr.length; i++) {
+        	list.add(arr[i]);
         }
         
+        Collections.sort(list);
+        
+        for(int i : list) {
+        	System.out.print(i);
+        }
+        
+        
+        System.out.println();
+        System.out.println("=======");
+        
+        if(list.size() == 1 ) {
+//        	answer = -1;
+        } else {
+        	list.remove(0);
+//        	answer = 
+        }
+        
+     
+        return answer;
     }
-    
 }
+
