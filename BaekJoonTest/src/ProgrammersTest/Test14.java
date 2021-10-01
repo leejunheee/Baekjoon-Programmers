@@ -14,12 +14,6 @@ public class Test14 {
 		char[] list =s.toCharArray();
 		
 		
-//		List<Character> list2 = new ArrayList<Character>();
-//		
-//		for(int i = 0; i <list.length; i++) {
-//			list2.add(list[i]);
-//		}
-//		
 		
 		//정렬 
 		Arrays.sort(list);
