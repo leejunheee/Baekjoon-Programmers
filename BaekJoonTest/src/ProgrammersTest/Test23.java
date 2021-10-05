@@ -25,9 +25,9 @@ class Solution24 {
 			}
 		}
 		
-//		for(int i =0 ; i< absolutes.length; i++) {
-//			answer += absolutes[i] * (signs[i] ? 1 : -1);
-//		}
+		for(int i =0 ; i< absolutes.length; i++) {
+			answer += absolutes[i] * (signs[i] ? 1 : -1);
+		}
 
 
 		return answer;
