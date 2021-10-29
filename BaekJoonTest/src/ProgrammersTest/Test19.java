@@ -10,7 +10,7 @@ public class Test19 {
 }
 
 class Solution20 {
-	public long solution(long n) {
+	public long solution(long n) { 
 		
 		Double sqrt = Math.sqrt(n);
 		
